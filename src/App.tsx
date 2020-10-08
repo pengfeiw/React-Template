@@ -1,26 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Button } from "antd";
+import styles from "./App.module.less"; //像模块一样使用less
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.app}>
+      <Button type="primary">Hello, Ant Design!</Button>
+      <a href="http://www.baidu.com">I'm a link. Click me, please!</a>
+    </main>
   );
-}
+};
 
 export default App;

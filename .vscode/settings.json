@@ -1,0 +1,4 @@
+{
+    "typescript.tsdk": "d:\\study\\react-app-template\\node_modules\\typescript\\lib",
+    "eslint.enable": true
+}
