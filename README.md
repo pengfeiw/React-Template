@@ -1,8 +1,4 @@
-参考链接
-
-[原文地址]: https://www.aleksandrhovhannisyan.com/blog/dev/how-to-set-up-react-typescript-ant-design-less-css-modules-and-eslint/
-
-
+[参考原文地址](https://www.aleksandrhovhannisyan.com/blog/dev/how-to-set-up-react-typescript-ant-design-less-css-modules-and-eslint/)
 
 ### 用TypeScript创建React项目
 
